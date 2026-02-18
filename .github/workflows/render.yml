@@ -1,5 +1,8 @@
 name: Render Video
 on:
+  push:
+    paths:
+      - '.github/workflows/render.yml'
   workflow_dispatch:
     inputs:
       composition:
